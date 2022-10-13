@@ -1,0 +1,47 @@
+.butaca{
+
+        border-radius: 10px;
+        color: black;
+        width: 70px;
+        height: 70px;
+        margin: 7px;
+        margin-top: 15px;
+        display:grid;
+        padding: 5px;
+        
+        justify-content: center;
+        align-items:stretch;
+        cursor: pointer;
+        background-color: orange;
+}
+
+.libre{
+    background-color: orange;
+}
+
+.bloqueado{
+    background-color: red;
+}
+
+.seleccionado{
+    background-color: greenyellow;}
+
+    .container{
+        display:flex;
+       align-items: center;
+       justify-content:center;
+       flex-direction: column;
+     }
+     .button {
+      
+        border-radius: 5px;
+       padding: 0.85em 1.5em;
+       font-size: 0.95rem;
+       cursor: pointer;
+       text-decoration: none;
+       color: #ffffff;
+       background-color: #5D5D9B;
+       border: 1px solid #222;
+    
+      
+     }
